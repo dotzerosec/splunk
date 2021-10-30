@@ -1,7 +1,8 @@
 # splunk
 
 ## Windows
-`[WinEventLog://Security]
+
+`` [WinEventLog://Security]
     renderXml = true
     disabled = false
     evt_resolve_ad_obj = true
@@ -18,4 +19,4 @@
 [WinEventLog://System]
     renderXml = true
     disabled = false
-    index = windows `
+    index = windows  ``
