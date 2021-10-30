@@ -25,6 +25,7 @@
 [WinEventLog://Microsoft-Windows-Sysmon/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Sysmon/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-WindowsUpdateClient/Operational]
