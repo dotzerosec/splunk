@@ -31,55 +31,66 @@
 [WinEventLog://Microsoft-Windows-WindowsUpdateClient/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-WindowsUpdateClient/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-Windows Firewall With Advanced Security/Firewall]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
     index = windows
 
 [WinEventLog://Microsoft-Windows-TerminalServices-LocalSessionManager/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-Windows PowerShell]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Windows PowerShell
     index = windows
 
 [WinEventLog://Microsoft-Windows-Windows-PowerShell/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Windows-PowerShell/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-WMI-Activity/Operational]
     renderXml = true
-    disabled = false
+    disabled = false`
+    source = XmlWinEventLog:Microsoft-Windows-WMI-Activity/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-TaskScheduler/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-TaskScheduler/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-Winlogon/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Winlogon/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-SMBServer/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-SMBServer/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-WLAN-AutoConfig/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-WLAN-AutoConfig/Operational
     index = windows
 
 [WinEventLog://Microsoft-Windows-Dhcp-Client/Operational]
     renderXml = true
     disabled = false
+    source = XmlWinEventLog:Microsoft-Windows-Dhcp-Client/Operational
     index = windows  
 ```
